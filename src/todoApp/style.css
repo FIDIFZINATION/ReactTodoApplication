@@ -1,0 +1,52 @@
+.todo-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  padding-top: 5em;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(12, 6, 59);
+}
+
+/* .todo-screen input{
+    margin: auto; 
+} */
+
+.todo-items{
+    padding: 1em 0.5em 1em 0em; 
+    overflow: hidden;
+    width: 20em;
+}
+
+.todo-item{
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+    background-color: rgb(123, 81, 223);
+    padding: 0.5em 1em;
+    width: 100%;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: large;
+    transition: all 0.1s;
+}
+
+.todo-add{
+    display: flex;
+    width: 20em;
+}
+
+.todo-item:hover{
+    color: rgb(69, 17, 190);    
+    background-color: aliceblue;
+}
+.todo-item:hover .fa-trash{
+    color: red;
+    cursor: pointer;
+}
+.todo-item:hover .fa-edit{
+    color: rgb(65, 65, 230);
+    cursor: pointer;
+}
